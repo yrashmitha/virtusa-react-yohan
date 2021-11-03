@@ -18,6 +18,10 @@ const Header = (props: Props) => {
             <Link to="/as-2">Assignment 2</Link>
           </div>
 
+          <div className="m-3">
+            <Link to="/redux">Redux</Link>
+          </div>
+
           {/* <NavLink to="/">
             <Nav.Link>Home</Nav.Link>
           </NavLink>

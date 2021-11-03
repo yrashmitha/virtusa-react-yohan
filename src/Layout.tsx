@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Switch } from "react-router";
 import Assignment2 from "./Assignment2";
 import Header from "./components/Header";
+import Counter from "./Contacts";
 import Home from "./Home";
 
 interface Props {}
@@ -23,6 +24,9 @@ export const Layout = (props: Props) => {
 
         <Route path="/as-2" exact>
           <Assignment2 />
+        </Route>
+        <Route path="/redux" exact>
+          <Counter />
         </Route>
       </Switch>
     </div>
